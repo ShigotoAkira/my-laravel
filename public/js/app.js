@@ -38928,7 +38928,7 @@ var render = function() {
                           attrs: {
                             type: "text",
                             name: "bio",
-                            placeholder: "Short Bio"
+                            placeholder: "Short Bio (optional)"
                           },
                           domProps: { value: _vm.form.bio },
                           on: {
@@ -39072,7 +39072,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "modal-footer" }, [
       _c(
         "button",
-        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        { staticClass: "btn btn-primary", attrs: { type: "submit" } },
         [_vm._v("Create New User")]
       ),
       _vm._v(" "),

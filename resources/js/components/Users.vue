@@ -90,13 +90,13 @@
                         </div>
                         <div class="form-group">
                                 <textarea v-model="form.bio" type="text" name="bio"
-                                    placeholder="Short Bio"
+                                    placeholder="Short Bio (optional)"
                                     class="form-control" :class="{ 'is-invalid': form.errors.has('bio') }"></textarea>
                                 <has-error :form="form" field="bio"></has-error>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Create New User</button>
+                        <button type="submit" class="btn btn-primary">Create New User</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </form>
