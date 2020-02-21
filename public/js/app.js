@@ -37396,9 +37396,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Dashboard Component")
-            ]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("Dashboard")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
@@ -37490,9 +37488,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Profile Component")
-            ]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("Profile")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
